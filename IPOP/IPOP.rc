@@ -1,0 +1,757 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\IPOP.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#include ""l.deu\\afxprint.rc""        // Ressourcen für Drucken/Seitenansicht\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\IPOP.ico"
+IDR_IPOPTYPE            ICON    DISCARDABLE     "res\\IPOPDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  22, 21
+BEGIN
+    BUTTON      ID_MFRM_OPEN_REGIMAGE
+    BUTTON      ID_MFM_LASTPIC
+    SEPARATOR
+    BUTTON      ID_VIEW_BACK
+    BUTTON      ID_VIEW_FORWARD
+    SEPARATOR
+    BUTTON      ID_VIEW_MODER
+    BUTTON      ID_VIEW_MODEK
+    SEPARATOR
+    BUTTON      ID_VIDEO_SNAPANDREG
+    BUTTON      ID_MFM_POSEDLG
+    BUTTON      ID_VIEW_CALIBRATE
+    BUTTON      ID_VIEW_CALIBRATE_ONESTEP
+    SEPARATOR
+    BUTTON      ID_VIDEO_START
+    BUTTON      ID_VIDEO_GRABFRAME
+    BUTTON      ID_PXC_CAM1
+    BUTTON      ID_PXC_CAM2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Datei"
+    BEGIN
+        MENUITEM "Bild zur Kalibrierung öffnen", ID_MFRM_OPEN_CALIMAGE
+        MENUITEM "Bild zur Registrierung öffnen", ID_MFRM_OPEN_REGIMAGE
+        MENUITEM "",                            1
+        MENUITEM "Bild speichern",              ID_PICVIEW_SAVEBMP
+        MENUITEM SEPARATOR
+        MENUITEM "Beenden",                     ID_APP_EXIT
+    END
+    POPUP "&Kalibrieren"
+    BEGIN
+        MENUITEM "Initialisierung",             ID_VIEW_CALIBRATE_INIT
+        MENUITEM "Iteration [Space]",           ID_VIEW_CALIBRATE_ONESTEP
+    END
+    POPUP "&Registrieren"
+    BEGIN
+        MENUITEM "Eckpunkteerkennung",          ID_REGISTRIEREN_VORVERARBEITUNG
+
+        MENUITEM SEPARATOR
+        POPUP "Einzelschritte"
+        BEGIN
+            MENUITEM "Binarisierung",               ID_REG_IP_BINARIZE
+            MENUITEM "Kantenfilter",                ID_REG_IP_EDGE
+            MENUITEM "Houghtransformation",         ID_REG_IP_HOUGH
+        END
+    END
+    POPUP "Videoansicht"
+    BEGIN
+        POPUP "PXC"
+        BEGIN
+            MENUITEM "Init",                        ID_VIDEO_START
+            MENUITEM "Bild aufnehmen",              ID_VIDEO_GRABFRAME
+            MENUITEM "Kamera 1",                    ID_PXC_CAM1
+            MENUITEM "Kamera 2",                    ID_PXC_CAM2
+        END
+    END
+    POPUP "&Einstellungen"
+    BEGIN
+        MENUITEM "Kamera",                      ID_MFM_CAMPARAMS
+        MENUITEM "Kalibriermuster",             ID_MFM_CHESSBPARAMS
+        MENUITEM "Bildverarbeitung",            ID_IPPARAMS
+        MENUITEM "Lage",                        ID_MFM_POSEDLG
+    END
+    POPUP "&Fenster"
+    BEGIN
+        MENUITEM "Über&lappend",                ID_WINDOW_CASCADE
+        MENUITEM "&Nebeneinander",              ID_WINDOW_TILE_HORZ
+    END
+    POPUP "&Information"
+    BEGIN
+        MENUITEM "über IPOP...",                ID_APP_ABOUT
+    END
+END
+
+IDR_IPOPTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Datei"
+    BEGIN
+        MENUITEM "Bild zur Kalibrierung öffnen", ID_MFRM_OPEN_CALIMAGE
+        MENUITEM "Bild zur Registrierung öffnen", ID_MFRM_OPEN_REGIMAGE
+        MENUITEM "",                            1
+        MENUITEM "Bild speichern",              ID_PICVIEW_SAVEBMP
+        MENUITEM SEPARATOR
+        MENUITEM "Beenden",                     ID_APP_EXIT
+    END
+    POPUP "&Kalibrieren"
+    BEGIN
+        MENUITEM "Initialisierung",             ID_VIEW_CALIBRATE_INIT
+        MENUITEM "Iteration [Space]",           ID_VIEW_CALIBRATE_ONESTEP
+    END
+    POPUP "&Registrieren"
+    BEGIN
+        MENUITEM "Registrieren",                ID_REGISTRIEREN_VORVERARBEITUNG
+
+        MENUITEM "Bild aufnehmen und Registrieren", ID_VIDEO_SNAPANDREG
+        MENUITEM SEPARATOR
+        POPUP "Einzelschritte"
+        BEGIN
+            MENUITEM "Binarisierung",               ID_REG_IP_BINARIZE
+            MENUITEM "Erosion",                     ID_REG_EROSION
+            MENUITEM "Flood Fill",                  ID_REG_FLOODFILL
+            MENUITEM "Kantenfilter",                ID_REG_IP_EDGE
+            MENUITEM "Houghtransformation",         ID_REG_IP_HOUGH
+        END
+    END
+    POPUP "Videoansicht"
+    BEGIN
+        POPUP "PXC"
+        BEGIN
+            MENUITEM "Init",                        ID_VIDEO_START
+            MENUITEM "Bild aufnehmen",              ID_VIDEO_GRABFRAME
+            MENUITEM "Kamera 1",                    ID_PXC_CAM1
+            MENUITEM "Kamera 2",                    ID_PXC_CAM2
+        END
+    END
+    POPUP "&Einstellungen"
+    BEGIN
+        MENUITEM "Kamera",                      ID_MFM_CAMPARAMS
+        MENUITEM "Kalibriermuster",             ID_MFM_CHESSBPARAMS
+        MENUITEM "Bildverarbeitung",            ID_IPPARAMS
+        MENUITEM "Lage",                        ID_MFM_POSEDLG
+    END
+    POPUP "&Fenster"
+    BEGIN
+        MENUITEM "Über&lappend",                ID_WINDOW_CASCADE
+        MENUITEM "&Nebeneinander",              ID_WINDOW_TILE_HORZ
+    END
+    POPUP "&Information"
+    BEGIN
+        MENUITEM "über IPOP...",                ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 25, 246, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über IPOP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,17,21,20
+    LTEXT           "IPOP Version 1.0",IDC_STATIC,42,12,119,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,189,7,50,14,WS_GROUP
+    LTEXT           "(C) by Alexander M. Roehnisch @ WZL Aachen 2005",
+                    IDC_STATIC,42,34,181,8
+    LTEXT           "Inverse Projektion von Durchstoßpunkten",IDC_STATIC,42,
+                    23,132,8
+    LTEXT           "Entstanden als Studienarbeit im Rahmen des SFF 368",
+                    IDC_STATIC,25,65,170,8
+    LTEXT           "unter dem Institutsleiter Prof. Dr. Ing. Robert Schmitt",
+                    IDC_STATIC,25,88,164,8
+    LTEXT           "in Betreuung durch Dipl. Ing. Bjoern Dietrich",
+                    IDC_STATIC,25,76,139,8
+    GROUPBOX        "",IDC_STATIC,19,53,197,53
+    GROUPBOX        "",IDC_STATIC,18,111,198,54
+    LTEXT           "Entwickelt mit Microsoft Visual C++ 6.0 ",IDC_STATIC,25,
+                    122,124,8
+    LTEXT           "unter Verwendung der Bildverarbeitungs-Bibliotheken ",
+                    IDC_STATIC,25,134,170,8
+    LTEXT           "OpenCV und LTILib",IDC_STATIC,25,146,64,8
+END
+
+IDD_DLG_3D DIALOG DISCARDABLE  0, 25, 85, 111
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "3D- Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Vorne",IDC_3D_PERSP_FRONT,"Button",BS_AUTORADIOBUTTON,
+                    11,12,35,10
+    CONTROL         "Links",IDC_3D_PERSP_LEFT,"Button",BS_AUTORADIOBUTTON,11,
+                    34,33,10
+    CONTROL         "Rechts",IDC_3D_PERSP_RIGHT,"Button",BS_AUTORADIOBUTTON,
+                    11,45,39,10
+    CONTROL         "Hinten",IDC_3D_PERSP_BACK,"Button",BS_AUTORADIOBUTTON,
+                    11,23,37,10
+    CONTROL         "Proj.strahlen",IDC_3D_DRAW_PROJRAYS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,60,55,10
+    CONTROL         "Kalibrierpunkte",IDC_3D_DRAW_CALPOINTS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,73,63,10
+    CONTROL         "Distanzen",IDC_3D_DRAW_DISTANCES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,87,47,10
+    GROUPBOX        "",IDC_STATIC,5,3,72,101
+END
+
+IDD_DLG_CAMPARAMS DIALOG DISCARDABLE  0, 25, 203, 167
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kameraparameter"
+FONT 8, "Microsoft Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,92,146,49,15
+    PUSHBUTTON      "Abbrechen",IDCANCEL,145,146,49,15
+    EDITTEXT        IDC_BV_CAMPARAM_FOCLEN,21,84,27,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BV_CAMPARAM_PIXSIZEX,21,35,27,13,ES_AUTOHSCROLL
+    LTEXT           "Focuslänge [mm]",IDC_STATIC,55,87,55,8
+    EDITTEXT        IDC_CAMPARAM_PRINCX,21,118,27,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_PRINCY,99,118,27,13,ES_AUTOHSCROLL
+    LTEXT           "X [pixel]",IDC_STATIC,71,121,28,8
+    LTEXT           "Y [pixel]",IDC_STATIC,143,121,36,8
+    EDITTEXT        IDC_BV_CAMPARAM_PIXSIZEY,107,34,27,13,ES_AUTOHSCROLL
+    LTEXT           "x [mm/1000]",IDC_STATIC,51,39,50,8
+    GROUPBOX        "",IDC_STATIC,12,10,184,135
+    LTEXT           "Hauptpunktkoordinaten (Principalpoint):",IDC_STATIC,21,
+                    105,126,8
+    LTEXT           "Pixelgröße",IDC_STATIC,21,23,35,8
+    LTEXT           "y [mm /1000]",IDC_STATIC,137,38,53,8
+    EDITTEXT        IDC_BV_CAMPARAM_PIXNUMX,22,58,27,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BV_CAMPARAM_PIXNUMY,108,58,27,13,ES_AUTOHSCROLL
+    LTEXT           "Anzahl Pixel X",IDC_STATIC,54,61,47,8
+    LTEXT           "Anzahl Pixel Y",IDC_STATIC,140,60,48,8
+END
+
+IDD_DLG_CHECKBOARD DIALOG DISCARDABLE  0, 25, 191, 126
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Maße des Kalibriermusters"
+FONT 8, "Microsoft Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,91,104,42,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,142,104,39,14
+    EDITTEXT        IDC_CAMCAL_ETALONX,15,31,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMCAL_ETALONY,15,50,25,12,ES_AUTOHSCROLL
+    LTEXT           "Anzahl der inneren Ecken pro Reihe",IDC_STATIC,51,37,
+                    115,8
+    LTEXT           "Anzahl der inneren Ecken pro Spalte",IDC_STATIC,52,55,
+                    116,8
+    EDITTEXT        IDC_CAMCAL_ETALONWIDTH,16,69,25,12,ES_AUTOHSCROLL
+    LTEXT           "Breite einer Zelle (in mm)",IDC_STATIC,53,74,78,8
+    GROUPBOX        "Abmessungen des Kalibriermusters",IDC_STATIC,8,18,174,
+                    79
+END
+
+IDD_DLG_POSE DIALOGEX 0, 25, 168, 295
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Lagedialog"
+FONT 6, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Schließen",IDOK,112,279,50,9
+    EDITTEXT        IDC_CAL_TranslationX,29,44,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_TranslationY,29,60,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_TranslationZ,29,76,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_RotationX,97,44,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_RotationY,97,60,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_RotationZ,97,76,24,12,ES_AUTOHSCROLL
+    LTEXT           "Verschiebung\n[mm]:",IDC_STATIC,32,22,50,18
+    PUSHBUTTON      "-",IDC_CAL_ROTX_NEG,83,45,10,10
+    PUSHBUTTON      "+",IDC_CAL_ROTX_POS,126,45,10,10
+    PUSHBUTTON      "-",IDC_CAL_ROTY_NEG,83,62,10,10
+    PUSHBUTTON      "+",IDC_CAL_ROTY_POS,126,62,10,10
+    PUSHBUTTON      "-",IDC_CAL_ROTZ_NEG,83,78,10,10
+    PUSHBUTTON      "+",IDC_CAL_ROTZ_POS,126,78,10,10
+    PUSHBUTTON      "-",IDC_CAL_TRANSZ_NEG,12,78,10,10
+    PUSHBUTTON      "+",IDC_CAL_TRANSZ_POS,66,78,10,10
+    PUSHBUTTON      "-",IDC_CAL_TRANSY_NEG,12,62,10,10
+    PUSHBUTTON      "+",IDC_CAL_TRANSY_POS,66,62,10,10
+    PUSHBUTTON      "-",IDC_CAL_TRANSX_NEG,12,45,10,10
+    PUSHBUTTON      "+",IDC_CAL_TRANSX_POS,66,45,10,10
+    LTEXT           "Rotation\n[Grad]:",IDC_STATIC,101,23,32,18
+    GROUPBOX        "Kalibriermuster im Bezug zur Kamera (grün)",IDC_STATIC,
+                    5,9,149,115,0,0,HIDC_STATIC
+    EDITTEXT        IDC_CAL_NUMIT,29,92,23,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_MACHINEREFX,30,155,20,12,ES_AUTOHSCROLL
+    GROUPBOX        "Maschinenreferenz zur Kamera",IDC_STATIC,5,128,156,64
+    LTEXT           "x",IDC_STATIC,68,157,10,10
+    LTEXT           "Translation [mm]",IDC_STATIC,14,144,63,11
+    LTEXT           "Rotation [Grad]",IDC_STATIC,90,145,50,11
+    GROUPBOX        "Werkstück zur Maschinenreferenz",IDC_STATIC,5,196,156,
+                    78
+    LTEXT           "Anzahl der Iterationen",IDC_STATIC,63,95,70,8
+    PUSHBUTTON      "-",IDC_CAL_MACHINEREF_TRANSX_NEG,16,157,10,10
+    PUSHBUTTON      "+",IDC_CAL_MACHINEREF_TRANSX_POS,52,157,10,10
+    EDITTEXT        IDC_CAL_MACHINEREFY,30,171,20,12,ES_AUTOHSCROLL
+    LTEXT           "y",IDC_STATIC,68,176,10,10
+    PUSHBUTTON      "-",IDC_CAL_MACHINEREF_TRANSY_NEG,16,176,10,10
+    EDITTEXT        IDC_CAL_MACHINEREFROTZ,96,172,20,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_CAL_MACHINEREF_TRANSY_POS,52,176,10,10
+    LTEXT           "z",IDC_STATIC,133,177,10,10
+    PUSHBUTTON      "-",IDC_CAL_MACHINEREF_ROTZ_NEG,82,177,10,10
+    PUSHBUTTON      "+",IDC_CAL_MACHINEREF_ROTZ_POS,118,177,10,10
+    EDITTEXT        IDC_CAL_WORKPIECE_TRANSX,35,220,20,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "x",IDC_STATIC,73,223,10,10
+    LTEXT           "Translation [mm]",IDC_STATIC,19,209,63,11
+    LTEXT           "Rotation [Grad]",IDC_STATIC,92,226,50,11
+    PUSHBUTTON      "-",IDC_CAL_WORKPIECE_TRANSX_NEG,21,223,10,10
+    EDITTEXT        IDC_CAL_WORKPIECE_TRANSY,35,239,20,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    PUSHBUTTON      "+",IDC_CAL_WORKPIECE_TRANSX_POS,57,223,10,10
+    LTEXT           "y",IDC_STATIC,73,242,10,10
+    PUSHBUTTON      "-",IDC_CAL_WORKPIECE_TRANSY_NEG,21,241,10,10
+    EDITTEXT        IDC_CAL_WORKPIECE_ROTZ,98,236,20,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_CAL_WORKPIECE_ROTZ_POS,120,242,10,10
+    PUSHBUTTON      "-",IDC_CAL_WORKPIECE_ROTZ_NEG,84,242,10,10
+    PUSHBUTTON      "+",IDC_CAL_WORKPIECE_TRANSY_POS,57,241,10,10
+    LTEXT           "z",IDC_STATIC,134,239,10,10
+    LTEXT           "z",IDC_STATIC,143,81,8,8
+    LTEXT           "x",IDC_STATIC,144,43,10,10
+    LTEXT           "y",IDC_STATIC,144,62,10,10
+    PUSHBUTTON      "Übernehmen",IDC_CAL_UPDATE,59,279,49,9
+    EDITTEXT        IDC_CAL_MACHINEREFROTX,96,156,20,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "-",IDC_CAL_MACHINEREF_ROTX_NEG,82,158,10,10,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "+",IDC_CAL_MACHINEREF_ROTX_POS,118,158,10,10,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    LTEXT           "x",IDC_STATIC,132,158,10,10,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    EDITTEXT        IDC_CAL_SUMDISTANCES,29,106,23,12,ES_AUTOHSCROLL
+    LTEXT           "Summe aller Distanzen",IDC_STATIC,61,108,72,8
+    PUSHBUTTON      "Als neue Maschinenreferenz setzen",
+                    IDC_DLG_POSE_SETASMACHREF,19,255,131,12,BS_MULTILINE
+END
+
+IDD_DLG_UNIVERSAL DIALOG DISCARDABLE  50, 25, 146, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,45,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,66,45,50,14
+    EDITTEXT        IDC_DLG_UNI_EDIT1,7,7,29,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DLG_UNI_TEXT1,43,7,77,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_DLG_UNI_TEXT2,43,23,77,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_DLG_UNI_EDIT2,7,23,29,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_IP_PARAMS DIALOG DISCARDABLE  0, 0, 155, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameter der Bildverarbeitung"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,138,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,98,138,50,14
+    GROUPBOX        "Binarisierung",IDC_STATIC,7,7,137,38
+    GROUPBOX        "Houghtransformation",IDC_STATIC,7,50,139,40
+    EDITTEXT        IDC_IPPARAMS_BINTHRESH,36,22,23,13,ES_AUTOHSCROLL
+    LTEXT           "Schwellwert",IDC_STATIC,83,25,39,8
+    LTEXT           "Winkelauflösung",IDC_STATIC,19,48,54,8,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CONTROL         "180",IDC_IPPARAMS_HOUGHACCU180,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,19,58,28,10
+    CONTROL         "360",IDC_IPPARAMS_HOUGHACCU360,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,59,58,28,10
+    CONTROL         "540",IDC_IPPARAMS_HOUGHACCU540,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,101,58,28,10
+    GROUPBOX        "Allgemein",IDC_STATIC,7,94,141,39
+    CONTROL         "Zwischenschritte anzeigen",IDC_IPPARAMS_SHOWSTEPS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,110,100,10
+    EDITTEXT        IDC_IPPARAMS_HOUGHSENSIVITY,36,65,23,13,ES_AUTOHSCROLL
+    LTEXT           "Empfindlichkeit",IDC_STATIC,79,66,48,8
+    PUSHBUTTON      "+",IDC_IPPARAMS_HOUGHSENSIVITY_POS,64,66,12,11
+    PUSHBUTTON      "-",IDC_IPPARAMS_HOUGHSENSIVITY_NEG,19,66,12,11
+    PUSHBUTTON      "+",IDC_IPPARAMS_BINTHRESH_POS,64,24,12,11
+    PUSHBUTTON      "-",IDC_IPPARAMS_BINTHRESH_NEG,19,24,12,11
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "Inverse Projection of Piercing Points\0"
+            VALUE "CompanyName", "WZL, RWTH-Aachen\0"
+            VALUE "FileDescription", "MFC-Anwendung IPOP\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IPOP\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IPOP.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "IPOP\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        VERTGUIDE, 25
+        VERTGUIDE, 42
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+        HORZGUIDE, 42
+    END
+
+    IDD_DLG_3D, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_DLG_CAMPARAMS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 196
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_DLG_CHECKBOARD, DIALOG
+    BEGIN
+        HORZGUIDE, 118
+    END
+
+    IDD_DLG_POSE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 162
+        VERTGUIDE, 5
+    END
+
+    IDD_DLG_UNIVERSAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 139
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_DLG_IP_PARAMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        VERTGUIDE, 19
+        VERTGUIDE, 59
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "+++ IPOP +++ Inverse Projektion von Durchstoßpunkten, WZL, Aachen, Prof. Schmitt"
+    IDR_IPOPTYPE            "\nIPOP\nIPOP\n\n\nIPOP.Document\nIPOP Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "IPOP"
+    AFX_IDS_IDLEMESSAGE     "Bereit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "ER"
+    ID_INDICATOR_CAPS       "UF"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "RF"
+    ID_INDICATOR_OVR        "ÜB"
+    ID_INDICATOR_REC        "MA"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Erstellt ein neues Dokument.\nNeu"
+    ID_FILE_OPEN            "Öffnet ein bestehendes Dokument.\nÖffnen"
+    ID_FILE_CLOSE           "Schließt das aktive Dokument.\nSchließen"
+    ID_FILE_SAVE            "Speichert das aktive Dokument.\nSpeichern"
+    ID_FILE_SAVE_AS         "Speichert das aktive Dokument unter neuem Namen.\nSpeichern unter"
+    ID_FILE_PAGE_SETUP      "Ändert die Druckoptionen.\nSeite einrichten"
+    ID_FILE_PRINT_SETUP     "Ändert den Drucker und die Druckoptionen.\nDruckereinrichtung"
+    ID_FILE_PRINT           "Druckt das aktive Dokument.\nDrucken"
+    ID_FILE_PRINT_PREVIEW   "Zeigt ganze Seiten an.\nSeitenansicht"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Zeigt Programm-Informationen, Versionsnummer und Copyright an.\nInfo"
+    ID_APP_EXIT             "Verläßt die Anwendung; fragt, ob Dokumente gespeichert werden sollen.\nBeenden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE2       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE3       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE4       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE5       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE6       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE7       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE8       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE9       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE10      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE11      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE12      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE13      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE14      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE15      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE16      "Öffnet dieses Dokument."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Wechselt zum nächsten Fensterausschnitt.\nNächster Ausschnitt"
+    ID_PREV_PANE            "Springt zum vorherigen Fensterausschnitt zurück.\nVorheriger Ausschnitt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Öffnet ein weiteres Fenster für das aktive Dokument.\nNeues Fenster"
+    ID_WINDOW_ARRANGE       "Ordnet die Symbole im unteren Bereich des Fensters an.\nSymbole anordnen"
+    ID_WINDOW_CASCADE       "Ordnet die Fenster überlappend an.\nÜberlappende Fenster"
+    ID_WINDOW_TILE_HORZ     "Ordnet die Fenster nebeneinander an.\nFenster nebeneinander"
+    ID_WINDOW_TILE_VERT     "Ordnet die Fenster nebeneinander an.\nFenster nebeneinander"
+    ID_WINDOW_SPLIT         "Teilt das aktive Fenster in Ausschnitte.\nTeilen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Löscht die Markierung.\nLöschen"
+    ID_EDIT_CLEAR_ALL       "Löscht alles.\nAlles löschen"
+    ID_EDIT_COPY            "Kopiert die Markierung und überträgt sie in die Zwischenablage.\nKopieren"
+    ID_EDIT_CUT             "Entfernt die Markierung und überträgt sie in die Zwischenablage.\nAusschneiden"
+    ID_EDIT_FIND            "Sucht den angegebenen Text.\nSuchen"
+    ID_EDIT_PASTE           "Fügt den Inhalt der Zwischenablage ein.\nEinfügen"
+    ID_EDIT_REPEAT          "Wiederholt die letzte Aktion.\nWiederholen"
+    ID_EDIT_REPLACE         "Ersetzt einen bestimmten Text durch einen anderen.\nErsetzen"
+    ID_EDIT_SELECT_ALL      "Markiert das gesamte Dokument.\nAlles markieren"
+    ID_EDIT_UNDO            "Macht die letzte Aktion rückgängig.\nRückgängig"
+    ID_EDIT_REDO            "Wiederholt die vorher rückgängig gemachte Aktion.\nWiederherstellen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Blendet die Symbolleiste ein oder aus.\nSymbolleiste ein-/ausschalten"
+    ID_VIEW_STATUS_BAR      "Blendet die Statusleiste ein oder aus.\nStatusleiste ein-/ausschalten"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Ändert die Fenstergröße."
+    AFX_IDS_SCMOVE          "Ändert die Position des Fensters."
+    AFX_IDS_SCMINIMIZE      "Verkleinert das Fenster zu einem Symbol."
+    AFX_IDS_SCMAXIMIZE      "Vergrößert das Fenster zu voller Größe."
+    AFX_IDS_SCNEXTWINDOW    "Wechselt zum nächsten Dokumentfenster."
+    AFX_IDS_SCPREVWINDOW    "Wechselt zum vorherigen Dokumentfenster."
+    AFX_IDS_SCCLOSE         "Schließt das aktive Fenster und fordert zur Dokumentspeicherung auf."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Stellt das Fenster in seiner normalen Größe wieder her."
+    AFX_IDS_SCTASKLIST      "Aktiviert die Task-Liste."
+    AFX_IDS_MDICHILD        "Aktiviert dieses Fenster."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Beendet die Seitenansicht.\nSeitenansicht beenden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CALIBRATE       "Führt die Kalibrierung mit den angegebenen Punkten und Parametern aus"
+    ID_MFRM_OPENIMAGE       "ein Bild laden"
+    ID_VIEW_FORWARD         "ein Bild weiter blättern"
+    ID_VIEW_BACK            "ein Bild zurück blättern"
+    ID_MFM_CAMPARAMS        "Öffnet das Dialogfeld zur Kameraparametereingabe"
+    ID_MFM_LASTPIC          "Letztes Bild laden"
+    ID_MFM_CHESSBPARAMS     "Öffnet das Dialogfeld zur Kalibriermusterparametereingabe"
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\IPOP.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#include "l.deu\afxprint.rc"        // Ressourcen für Drucken/Seitenansicht
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

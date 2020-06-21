@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: GCV - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSP6A1.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GCV.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"e:\Daten\My Projects\Visual-C++\GCV\gcvision.CPP"
+]
+Creating command line "cl.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSP6A1.tmp" 
+Erstellen der Befehlzeile "link.exe -lib /nologo /out:"Debug\GCV.lib"  ".\Debug\gcvision.obj" ".\Debug\StdAfx.obj" "
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+gcvision.CPP
+e:\daten\my projects\visual-c++\gcv\gcvision.h(157) : warning C4172: Adresse einer lokalen Variablen oder eines temporaeren Wertes wird zurueckgegeben
+e:\daten\my projects\visual-c++\gcv\gcvision.h(171) : warning C4183: 'clear': Definition der Member-Funktion sieht aus wie ctor, aber der Name entspricht nicht der umschliessenden Klasse
+e:\daten\my projects\visual-c++\gcv\gcvision.h(248) : warning C4183: 'GCV_MATRIX3DBIG': Definition der Member-Funktion sieht aus wie ctor, aber der Name entspricht nicht der umschliessenden Klasse
+e:\daten\my projects\visual-c++\gcv\gcvision.h(253) : warning C4172: Adresse einer lokalen Variablen oder eines temporaeren Wertes wird zurueckgegeben
+e:\daten\my projects\visual-c++\gcv\gcvision.h(257) : warning C4172: Adresse einer lokalen Variablen oder eines temporaeren Wertes wird zurueckgegeben
+e:\Daten\My Projects\Visual-C++\GCV\gcvision.CPP(505) : warning C4244: 'argument' : Konvertierung von 'double' in 'int', moeglicher Datenverlust
+Bibliothek wird erstellt...
+
+
+
+<h3>Ergebnisse</h3>
+GCV.lib - 0 Fehler, 6 Warnung(en)
+</pre>
+</body>
+</html>

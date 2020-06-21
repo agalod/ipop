@@ -1,0 +1,559 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\IPOP.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#include ""l.deu\\afxprint.rc""        // Ressourcen für Drucken/Seitenansicht\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\IPOP.ico"
+IDR_IPOPTYPE            ICON    DISCARDABLE     "res\\IPOPDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_MFRM_OPENIMAGE
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_MFM_LASTPIC
+    SEPARATOR
+    BUTTON      ID_VIEW_BACK
+    BUTTON      ID_VIEW_FORWARD
+    SEPARATOR
+    BUTTON      ID_VIEW_CALIBRATE
+    BUTTON      ID_VIEW_CALIBRATE_ONESTEP
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "&Neu\tStrg+N",                ID_FILE_NEW
+        MENUITEM "Ö&ffnen...\tStrg+O",          ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Drucker&einrichtung...",      ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Letzte Datei",                ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "&Symbolleiste",               ID_VIEW_TOOLBAR
+        MENUITEM "S&tatusleiste",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "Inf&o über IPOP...",          ID_APP_ABOUT
+    END
+END
+
+IDR_IPOPTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "Bild öffnen",                 ID_MFRM_OPENIMAGE
+        MENUITEM "&Schließen",                  ID_FILE_CLOSE
+        MENUITEM "Speichern &unter...",         ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Letztes Bild",                ID_MFM_LASTPIC
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Bearbeiten"
+    BEGIN
+        MENUITEM "&Rückgängig\tStrg+Z",         ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Ausschneiden\tStrg+X",       ID_EDIT_CUT
+        MENUITEM "&Kopieren\tStrg+C",           ID_EDIT_COPY
+        MENUITEM "E&infügen\tStrg+V",           ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Kalibireren Init",            ID_VIEW_CALIBRATE_INIT
+        MENUITEM "Kalibrieren Ein Schritt",     ID_VIEW_CALIBRATE_ONESTEP
+        MENUITEM SEPARATOR
+        MENUITEM "Registrieren",                ID_VIEW_REGISTER
+    END
+    POPUP "Einstellungen"
+    BEGIN
+        MENUITEM "Kameraparameter",             ID_MFM_CAMPARAMS
+        MENUITEM "Kalibriermusterparameter",    ID_MFM_CHESSBPARAMS
+    END
+    POPUP "&Fenster"
+    BEGIN
+        MENUITEM "Neues &Fenster",              ID_WINDOW_NEW
+        MENUITEM "Über&lappend",                ID_WINDOW_CASCADE
+        MENUITEM "&Nebeneinander",              ID_WINDOW_TILE_HORZ
+        MENUITEM "&Symbole anordnen",           ID_WINDOW_ARRANGE
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "Inf&o über IPOP...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über IPOP"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,17,20,20
+    LTEXT           "IPOP Version 1.0",IDC_STATIC,42,12,119,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "(C) by Alexander M. Roehnisch @ WZL Aachen 2005",
+                    IDC_STATIC,42,34,181,8
+    LTEXT           "Inverse Projection of Piercing Points",IDC_STATIC,42,23,
+                    114,8
+END
+
+IDD_3DView DIALOG DISCARDABLE  0, 0, 64, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "3D- Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Vorne",IDC_3D_PERSP_FRONT,"Button",BS_AUTORADIOBUTTON,7,
+                    17,35,10
+    CONTROL         "Links",IDC_3D_PERSP_LEFT,"Button",BS_AUTORADIOBUTTON,7,
+                    41,33,10
+    CONTROL         "Rechts",IDC_3D_PERSP_RIGHT,"Button",BS_AUTORADIOBUTTON,
+                    7,53,39,10
+    CONTROL         "Kamera",IDC_3D_PERSP_CAMERA,"Button",BS_AUTORADIOBUTTON,
+                    7,5,40,10
+    CONTROL         "Hinten",IDC_3D_PERSP_BACK,"Button",BS_AUTORADIOBUTTON,7,
+                    29,37,10
+    CONTROL         "Start",IDC_3DDialog_StartView,"Button",
+                    BS_AUTORADIOBUTTON,7,65,31,10
+END
+
+IDD_BV_CAMERA_PARAM DIALOG DISCARDABLE  0, 0, 247, 310
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kameraparameter"
+FONT 8, "Arial"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,149,289,40,15
+    PUSHBUTTON      "Abbrechen",IDCANCEL,199,289,41,15
+    EDITTEXT        IDC_BV_CAMPARAM_FOCLEN,21,229,40,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BV_CAMPARAM_PIXSIZEX,21,35,40,15,ES_AUTOHSCROLL
+    LTEXT           "Focuslänge [mm]",IDC_STATIC,67,233,55,8
+    EDITTEXT        IDC_CAMPARAM_PRINCX,21,262,40,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_PRINCY,99,262,40,15,ES_AUTOHSCROLL
+    LTEXT           "X [pixel]",IDC_STATIC,71,266,28,8
+    LTEXT           "Y [pixel]",IDC_STATIC,143,266,36,8
+    EDITTEXT        IDC_BV_CAMPARAM_PIXSIZEY,119,35,40,15,ES_AUTOHSCROLL
+    LTEXT           "x [m /1000000]",IDC_STATIC,65,39,50,8
+    GROUPBOX        "Kalibrierdaten",IDC_STATIC,8,86,225,119
+    EDITTEXT        IDC_CAMPARAM_CAMMAT1,21,109,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT7,21,145,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT4,21,126,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT3,119,109,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT8,71,145,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT5,71,126,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT2,71,109,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT9,119,145,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_CAMMAT6,119,126,41,14,ES_AUTOHSCROLL
+    LTEXT           "Kameramatrix:",IDC_STATIC,21,98,47,8
+    EDITTEXT        IDC_CAMPARAM_DIST1,21,181,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_DIST2,71,181,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_DIST3,119,181,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMPARAM_DIST4,171,181,41,14,ES_AUTOHSCROLL
+    LTEXT           "Verzerrungsparameter:",IDC_STATIC,21,169,77,8
+    GROUPBOX        "Realwertgrößen",IDC_STATIC,8,210,225,77
+    LTEXT           "Hauptpunktkoordinaten (Principalpoint):",IDC_STATIC,21,
+                    249,126,8
+    GROUPBOX        "Datenblattdaten",IDC_STATIC,8,11,225,69
+    LTEXT           "Pixelgröße",IDC_STATIC,21,23,35,8
+    LTEXT           "y [m /1000000]",IDC_STATIC,163,39,67,8
+    PUSHBUTTON      "Update Kameramatrix",IDC_BV_CAMPARAM_CALCFOCLEN,152,94,
+                    75,13
+    EDITTEXT        IDC_BV_CAMPARAM_PIXNUMX,22,58,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BV_CAMPARAM_PIXNUMY,120,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "Anzahl Pixel X",IDC_STATIC,69,62,47,8
+    LTEXT           "Anzahl Pixel Y",IDC_STATIC,165,62,48,8
+END
+
+IDD_DLG_CHECKBOARD DIALOG DISCARDABLE  0, 0, 208, 234
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Schachbrettdialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,53,212,42,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,158,212,39,14
+    EDITTEXT        IDC_CAMCAL_ETALONX,29,30,25,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMCAL_ETALONY,29,49,25,14,ES_AUTOHSCROLL
+    LTEXT           "Anzahl der inneren Ecken pro Reihe",IDC_STATIC,65,36,
+                    115,8
+    LTEXT           "Anzahl der inneren Ecken pro Spalte",IDC_STATIC,66,54,
+                    116,8
+    EDITTEXT        IDC_CAMCAL_ETALONWIDTH,30,68,25,14,ES_AUTOHSCROLL
+    LTEXT           "Breite einer Zelle (in mm)",IDC_STATIC,67,73,78,8
+    EDITTEXT        IDC_CAL_TranslationX,25,138,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_TranslationY,25,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_TranslationZ,25,173,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_RotationX,99,138,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_RotationY,99,154,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAL_RotationZ,99,173,40,14,ES_AUTOHSCROLL
+    LTEXT           "in X",IDC_STATIC,71,141,13,8
+    LTEXT           "in Y",IDC_STATIC,71,158,13,8
+    LTEXT           "in Z",IDC_STATIC,71,176,13,8
+    LTEXT           "um Z",IDC_STATIC,145,176,17,8
+    LTEXT           "Verschiebung\n[mm]:",IDC_STATIC,25,117,68,18
+    EDITTEXT        IDC_IIPM_DLG_ROTART2,99,126,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "Initiale Lage des Kalibriermusters im Bezug zur Kamera",
+                    IDC_STATIC,8,99,189,101
+    GROUPBOX        "Abmessungen des Kalibriermusters",IDC_STATIC,8,11,188,
+                    79
+    DEFPUSHBUTTON   "Übernehmen",ID_CALIB_UPDATE,103,212,46,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFC-Anwendung IPOP\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IPOP\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IPOP.EXE\0"
+            VALUE "ProductName", "Anwendung IPOP\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 42
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+        HORZGUIDE, 42
+    END
+
+    IDD_BV_CAMERA_PARAM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_DLG_CHECKBOARD, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        HORZGUIDE, 226
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "IPOP"
+    IDR_IPOPTYPE            "\nIPOP\nIPOP\n\n\nIPOP.Document\nIPOP Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "IPOP"
+    AFX_IDS_IDLEMESSAGE     "Bereit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "ER"
+    ID_INDICATOR_CAPS       "UF"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "RF"
+    ID_INDICATOR_OVR        "ÜB"
+    ID_INDICATOR_REC        "MA"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Erstellt ein neues Dokument.\nNeu"
+    ID_FILE_OPEN            "Öffnet ein bestehendes Dokument.\nÖffnen"
+    ID_FILE_CLOSE           "Schließt das aktive Dokument.\nSchließen"
+    ID_FILE_SAVE            "Speichert das aktive Dokument.\nSpeichern"
+    ID_FILE_SAVE_AS         "Speichert das aktive Dokument unter neuem Namen.\nSpeichern unter"
+    ID_FILE_PAGE_SETUP      "Ändert die Druckoptionen.\nSeite einrichten"
+    ID_FILE_PRINT_SETUP     "Ändert den Drucker und die Druckoptionen.\nDruckereinrichtung"
+    ID_FILE_PRINT           "Druckt das aktive Dokument.\nDrucken"
+    ID_FILE_PRINT_PREVIEW   "Zeigt ganze Seiten an.\nSeitenansicht"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Zeigt Programm-Informationen, Versionsnummer und Copyright an.\nInfo"
+    ID_APP_EXIT             "Verläßt die Anwendung; fragt, ob Dokumente gespeichert werden sollen.\nBeenden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE2       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE3       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE4       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE5       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE6       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE7       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE8       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE9       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE10      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE11      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE12      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE13      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE14      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE15      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE16      "Öffnet dieses Dokument."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Wechselt zum nächsten Fensterausschnitt.\nNächster Ausschnitt"
+    ID_PREV_PANE            "Springt zum vorherigen Fensterausschnitt zurück.\nVorheriger Ausschnitt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Öffnet ein weiteres Fenster für das aktive Dokument.\nNeues Fenster"
+    ID_WINDOW_ARRANGE       "Ordnet die Symbole im unteren Bereich des Fensters an.\nSymbole anordnen"
+    ID_WINDOW_CASCADE       "Ordnet die Fenster überlappend an.\nÜberlappende Fenster"
+    ID_WINDOW_TILE_HORZ     "Ordnet die Fenster nebeneinander an.\nFenster nebeneinander"
+    ID_WINDOW_TILE_VERT     "Ordnet die Fenster nebeneinander an.\nFenster nebeneinander"
+    ID_WINDOW_SPLIT         "Teilt das aktive Fenster in Ausschnitte.\nTeilen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Löscht die Markierung.\nLöschen"
+    ID_EDIT_CLEAR_ALL       "Löscht alles.\nAlles löschen"
+    ID_EDIT_COPY            "Kopiert die Markierung und überträgt sie in die Zwischenablage.\nKopieren"
+    ID_EDIT_CUT             "Entfernt die Markierung und überträgt sie in die Zwischenablage.\nAusschneiden"
+    ID_EDIT_FIND            "Sucht den angegebenen Text.\nSuchen"
+    ID_EDIT_PASTE           "Fügt den Inhalt der Zwischenablage ein.\nEinfügen"
+    ID_EDIT_REPEAT          "Wiederholt die letzte Aktion.\nWiederholen"
+    ID_EDIT_REPLACE         "Ersetzt einen bestimmten Text durch einen anderen.\nErsetzen"
+    ID_EDIT_SELECT_ALL      "Markiert das gesamte Dokument.\nAlles markieren"
+    ID_EDIT_UNDO            "Macht die letzte Aktion rückgängig.\nRückgängig"
+    ID_EDIT_REDO            "Wiederholt die vorher rückgängig gemachte Aktion.\nWiederherstellen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Blendet die Symbolleiste ein oder aus.\nSymbolleiste ein-/ausschalten"
+    ID_VIEW_STATUS_BAR      "Blendet die Statusleiste ein oder aus.\nStatusleiste ein-/ausschalten"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Ändert die Fenstergröße."
+    AFX_IDS_SCMOVE          "Ändert die Position des Fensters."
+    AFX_IDS_SCMINIMIZE      "Verkleinert das Fenster zu einem Symbol."
+    AFX_IDS_SCMAXIMIZE      "Vergrößert das Fenster zu voller Größe."
+    AFX_IDS_SCNEXTWINDOW    "Wechselt zum nächsten Dokumentfenster."
+    AFX_IDS_SCPREVWINDOW    "Wechselt zum vorherigen Dokumentfenster."
+    AFX_IDS_SCCLOSE         "Schließt das aktive Fenster und fordert zur Dokumentspeicherung auf."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Stellt das Fenster in seiner normalen Größe wieder her."
+    AFX_IDS_SCTASKLIST      "Aktiviert die Task-Liste."
+    AFX_IDS_MDICHILD        "Aktiviert dieses Fenster."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Beendet die Seitenansicht.\nSeitenansicht beenden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CALIBRATE       "Führt die Kalibrierung mit den angegebenen Punkten und Parametern aus"
+    ID_MFRM_OPENIMAGE       "ein Bild laden"
+    ID_VIEW_FORWARD         "ein Bild weiter blättern"
+    ID_VIEW_BACK            "ein Bild zurück blättern"
+    ID_MFM_CAMPARAMS        "Öffnet das Dialogfeld zur Kameraparametereingabe"
+    ID_MFM_LASTPIC          "Letztes Bild laden"
+    ID_MFM_CHESSBPARAMS     "Öffnet das Dialogfeld zur Kalibriermusterparametereingabe"
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\IPOP.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#include "l.deu\afxprint.rc"        // Ressourcen für Drucken/Seitenansicht
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,390 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}{\s1\sb240\sa60\keepn\nowidctlpar\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 1;}{
+\s2\sb240\sa60\keepn\nowidctlpar\widctlpar\adjustright \b\i\f1\cgrid \sbasedon0 \snext0 heading 2;}{\s3\sb240\sa60\keepn\nowidctlpar\widctlpar\adjustright \f1\cgrid \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext15 header;}{\s16\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext16 footer;}{\*\cs17 \additive \sbasedon10 page number;}{
+\s18\li1440\nowidctlpar\widctlpar\adjustright \cgrid \sbasedon0 \snext18 Body Text 2;}}{\*\listtable{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid703560995}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers
+;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid737215578}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1048576309}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360
+\jclisttab\tx360 }{\listname ;}\listid1367098485}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 
+}{\listname ;}\listid1515417779}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname 
+;}\listid1717973019}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid2064281733}
+{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid2106077497}}
+{\*\listoverridetable{\listoverride\listid1048576309\listoverridecount0\ls1}{\listoverride\listid2106077497\listoverridecount0\ls2}{\listoverride\listid703560995\listoverridecount0\ls3}{\listoverride\listid1515417779\listoverridecount0\ls4}
+{\listoverride\listid1367098485\listoverridecount0\ls5}{\listoverride\listid2064281733\listoverridecount0\ls6}{\listoverride\listid1717973019\listoverridecount0\ls7}{\listoverride\listid737215578\listoverridecount0\ls8}}{\info
+{\title The PXC200 Fast Display DLL}{\author Jeff Lassahn}{\operator Jeff Lassahn}{\creatim\yr1998\mo2\dy19\hr11\min36}{\revtim\yr1998\mo5\dy7\hr13\min6}{\printim\yr1998\mo4\dy24\hr12\min59}{\version24}{\edmins393}{\nofpages9}{\nofwords3102}
+{\nofchars17683}{\*\company imagenation}{\nofcharsws0}{\vern71}}\widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\endnhere\sectdefaultcl {\header \pard\plain \s15\qr\nowidctlpar\widctlpar
+\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid {\field{\*\fldinst { DATE \\@ "MM/dd/yy" }}{\fldrslt {\lang1024 05/07/98}}}{
+\par }}{\footer \pard\plain \s16\qc\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid {\field{\*\fldinst {\cs17  PAGE }}{\fldrslt {\cs17\lang1024 2}}}{
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s1\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f1\fs28\kerning28\cgrid {
+The PXC200 Fast Display DLL
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab 
+The PXC200 fast display DLL (PXCDD.dll) is a set of routines which work with the PXC200 software API to allow fast display of video in a window with graphics overlay under Windows 95 and Windows NT.  The main features of the package are:
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {automatically d
+isplays a video image from the PXC200 in a window.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {
+takes advantage of accelerated graphics display hardware using DirectX.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {
+provides support for nondestructive graphic overlays.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls1\adjustright {
+works with RGB15, RGB16, RGB24 and RGB32 data types, to support graphics display on adapters running in any of those color modes.  
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Video Image Display
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab The PXCDD library displays video by creating a frame for the PXC200 to write video into, and using a worker thread to continually update a window with the contents of that 
+frame. On systems with high performance graphics display hardware the task of updating the window is performed mostly in the display hardware, so the live display uses relatively little processor time.
+\par \tab When fast display is enabled, the window is updated w
+ith whatever the video frame contains.  This means that the PXCDD library does not need to control the PXC200 frame grabber directly.  The application program can use any of the PXC200 video capture features, such as continuous acquire, single grabs, and 
+triggered grabs to place video images into the buffer, and these video images will automatically appear in the window.
+\par \tab Alternatively, if the video frame only changes occasionally or if the precise timing of display updates is important, the application can
+ call a function to update the display immediately whenever appropriate rather than relying on the background thread to do automatic updates.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Nondestructive Overlay
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Another feature of the Fast Display DLL is nondestructive graphics overlay.  This feature 
+allows the application program to supply a graphics image which will appear on top of the video frame when it is displayed in a window, but not actually overwrite the pixel data in the video frame.  For example, an application program might overlay a bitm
+ap representing alignment marks on the displayed video image so that the program\rquote 
+s user can adjust the position of a camera.  The marks appear to overwrite the video image as seen on the window, but the actual image data in the frame is not modified.
+\par 
+\par }\pard\plain \s2\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\i\f1\cgrid {Installing the Fast Display DLL
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {System Requirements
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid { \tab The fast display DLL is a WIN32 program which runs under either Windows 95 or Windows NT.  It also requires the following:
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls2\adjustright {
+DirectDraw version 2 or later, or DirectX.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls2\adjustright {
+A PXC200 frame grabber and the PXC200 development software.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls2\adjustright {
+Microsoft Visual C 4.0, Borland C 5.0, Watcom C 11.0 or later versions of any of these.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls2\adjustright {
+A display adapter compatible with DirectDraw or DirectX, with at least 4 Megabytes of video memory and graphics acceleration.  More video
+ memory is helpful, particularly when working with true color images or large overlays.   Video display performance can vary dramatically between display adapters, please see the section below on performance for information about selecting a display adapt
+er.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls2\adjustright {
+If using Windows NT, use version 4, service pack 3 or newer.
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Installation
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab The fast display DLL is distributed on a disk containing the DLL, a C include file, and some sample code.  The disk is organized as follows:
+\par 
+\par }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw30\brdrcf15 \trbrdrb\brdrs\brdrw30\brdrcf15 \clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx2070\clvertalt\clbrdrt\brdrs\brdrw30\brdrcf15 \clbrdrb
+\brdrs\brdrw15\brdrcf15 \cltxlrtb \cellx8748\pard \nowidctlpar\widctlpar\intbl\adjustright {Directory\cell Contents\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw30\brdrcf15 \trbrdrb
+\brdrs\brdrw30\brdrcf15 \clvertalt\cltxlrtb \cellx2070\clvertalt\cltxlrtb \cellx8748\pard \nowidctlpar\widctlpar\intbl\adjustright {\\pxcdd\\bin\cell The PXCDD DLL, and sample programs\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard 
+\nowidctlpar\widctlpar\intbl\adjustright {\\pxcdd\\samples\cell Source code for the sample programs\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108\trbrdrt\brdrs\brdrw30\brdrcf15 \trbrdrb\brdrs\brdrw30\brdrcf15 
+\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx2070\clvertalt\clbrdrb\brdrs\brdrw30\brdrcf15 \cltxlrtb \cellx8748\pard \nowidctlpar\widctlpar\intbl\adjustright {\\pxcdd\\include\cell The C include file\cell }\pard 
+\nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\adjustright {
+\par \tab To install the software, copy the entire pxcdd directory to your hard drive, or alternatively copy the contents of individual subdirectories to your pxc200 installation\rquote 
+s bin,  include and samples directories.  You may also need to change some of you C compiler\rquote s environment settings to find the include file.
+\par \tab In addition to the software provided on the disk, you will also need to install DirectDraw or DirectX.
+\par }\pard\plain \s2\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\i\f1\cgrid {Programming with the Fast Display DLL
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Initializing the Library
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Before the PXCDD library is used it must be initialized by a call to }{\f2 imagenation_OpenLibrary}{.  This process is similar to that used by the PXC200 library and the FR
+AME library.  First, a global structure of type PXCDD should be created, then OpenLibrary should be called.  At this point the library is ready to use, and each function in the library is called as a member of the PXCDD structure.  After the application i
+s finished using the library it should call }{\f2 imagenation_CloseLibrary}{.  
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Putting Video in a Window
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab An application program which has created a window can display live video in it with the following steps:
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {Use }{\f2 CreateSurface}{
+ to allocate a frame the size of the desired video image.  This frame will always have the same pixel type as the Windows desktop; for example, if a computer\rquote 
+s video adapter is configured to display in 24 bit True Color mode, the pixel type of the frame returned by CreateSurface will be PBITS_RGB24.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {Use a PXC200 function such as }{
+\f2 Grab}{ or }{\f2 GrabContinuous}{ to begin capturing video to the frame created by CreateSurface.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {Use }{\f2 EnableFastDisplay}{
+ to begin updating a window with the contents of the frame.  The PXCDD library will now manage updates to the window as a background task.  Alternatively, the }{\f2 Display}{ function can be called to do a single update to the window.
+\par }\pard \nowidctlpar\widctlpar\adjustright {If GrabContinuous is used to capture video to the frame and EnableFastDisplay is used to updat
+e the window, live video will be continuously shown in the window without any additional help from the application.  This arrangement frees the application program to do things unrelated to managing video display.  Alternatively, if a program needs more c
+ontrol over the video display, it can call Grab and Display in a loop to do window updates.
+\par \tab When using EnableFastDisplay, it is important to disable the display before the window being displayed to is destroyed, such as when the WM_CLOSE message is processed.  If the window is destroyed while display is still occurring,
+ a thread from the PXCDD DLL may be left running after the program finishes.  This thread must be killed before the program can be run again. 
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Graphics Overlays
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Adding an overlay to video is a three step process.  
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {Create the overlay using }{\f2 
+LoadOverlay}{.  This function sets up an overlay which will have 
+the same size and contents as a specified frame.  The frame used by LoadOverlay in general should not be one allocated by CreateSurface, since doing this will use more of the graphics adapter\rquote 
+s memory than using a frame created by AllocateMemoryFrame or AllocateBuffer.  LoadOverlay makes a copy of the frame\rquote s data, so the frame can be freed or reused any time after the call to LoadOverlay.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {
+Attach the overlay to a PXCDD frame using }{\f2 EnableOverlay}{.  This function causes the overlay to be placed on top of t
+he specified frame, which must have been created by CreateSurface.  The x and y parameters to EnableOverlay give the position of the upper left corner of the overlay image relative to the video frame.  Each overlay can be attached to at most one video fra
+me, and each frame can have at most one overlay.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {
+Enable video display. EnableOverlay does not actually cause anything to be displayed in a window.  In order to display the overlay, either EnableFastDisplay, or Display must be called to show the video fr
+ame which the overlay is attached to.  EnableOverlay and EnableFastDisplay can be called in either order; the application program can either set up the overlay first and then start displaying video, or attach an overlay to a frame which is already being d
+isplayed.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Moving Frames and Overlays
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab It is possible to change the position of both video frames and overlays.  }{\f2 MoveSurface}{
+ can be used to reposition a video frame inside a window.  This can be used, for instance, to leave room on the top or left border of the window for control buttons.  Overlays can be moved relative to the frame they are attached to with }{\f2 MoveOverlay}
+{.  This can be useful for making pointers or cross hairs which move under user control.   Because overlays are positioned relative to a video 
+frame, calling MoveSurface on a frame which has an attached overlay will move both the frame and the attached overlay.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Drawing Graphics into Frames
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Sometimes, it is useful to draw into video frames or overlays.  There are three ways to do this: manipulate
+ the frames directly using frame library functions, use DirectDraw functions, or use GDI functions.
+\par \tab Any frame library function can be used to access a video frame.  The frame library can be used to read and write BMP files and copy regions of the bitmap t
+o and from arrays.  The bitmap of the frame can also be accessed directly using the frame library\rquote 
+s FrameBuffer function.  The frame library can also be used to create and access frames which can be passed to LoadOverlay, but once the overlay is loaded it is }{\i not}{ accessible to the frame library anymore.
+\par \tab Each video frame created by CreateSurface, as well as each overlay which is currently loaded, is accessible as a DirectDraw surface.  The DirectDraw surface pointer for any video frame can be found using the }{\f2 GetDDSurface}{
+ function, while the surface pointer for an overlay can be found using }{\f2 GetOverlaySurface}{.  Using these surface pointers, DirectDraw operations such as Blt copy can be performed.
+\par \tab For operations such as drawing lines and writing text, Windows G
+DI functions are often helpful.  In order to use GDI calls on a frame, a handle to a Device Context (HDC) must be created.  For active overlays made by LoadOverlay or video frames made by CreateSurface, an HDC can be created by first finding the DirectDra
+w surface pointer, and then calling the DirectDraw surface interface\rquote 
+s GetDC function.  Using the GetDC function locks the surface, which can prevent other graphics operations from occurring, so it is important to release the Device Context promptly using the DirectDraw surface ReleaseDC function.
+\par \tab Occasionally it is necessary to create a frame which is not allocated from graphics card memory, but is accessible by GDI functions.  One example of this is the OCLOCK sample program, which draws an image on a fra
+me and loads the image as an overlay.  Frames of this sort can be made using calls to CreateDIBSection, but this technique is fairly complicated.  The sample source file GDIFRAME.C uses this technique and isolates most of the complexity inside the Allocat
+eGDI and CreateFrameDC functions.  
+\par }\pard\plain \s2\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\i\f1\cgrid {Library Reference
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {CloseLibrary
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Returns to the system any resources which were allocated by OpenLibrary.  This function should be the last PXCDD function called by a program.
+\par \tab Declaration: void imagenation_CloseLibrary(PXCDD *pxcdd);
+\par \tab Parameters: none
+\par \tab Returns: none
+\par \tab Errors: none
+\par 
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {CreateSurface
+\par }\pard\plain \fi720\nowidctlpar\widctlpar\adjustright \fs20\cgrid {
+Creates a frame in VGA memory using the current display resolution bit depth.  The PXC200 library can grab images to this frame as if it were allocated by AllocateBuffer.  EnableFastDisplay, or Display can be used to show the contents of this frame in a w
+indow.  Use the FreeFrame function from either the PXC200 library or the Frame library to release the resources allocated by this function when the frame is no longer needed.
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par \tab Declaration: FRAME* CreateSurface (short dx, short dy);
+\par \tab Parameters: 
+\par \tab \tab dx: width of surface
+\par \tab \tab dy: height of surface
+\par \tab Returns: 
+\par }\pard \fi720\li720\nowidctlpar\widctlpar\adjustright {0 for failure
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab \tab a frame pointer if successful
+\par \tab Errors:
+\par \tab \tab ERR_INVALID_PARAMETER
+\par \tab \tab ERR_VIDEO_MEM
+\par \tab \tab ERR_SYSTEM_MEM
+\par \tab \tab ERR_NO_DIRECTDRAW
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Display
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Immediately copies the contents of a frame to a window.  The frame 
+must have been created by CreateSurface.  Any overlays which have been attached to this frame with EnableOverlay will also be displayed.
+\par 
+\par \tab Declaration: void  Display(HWND hwnd, FRAME *f);
+\par \tab Parameters:
+\par \tab \tab hwnd: handle to the window
+\par \tab \tab f: frame to be displayed
+\par \tab Returns: None
+\par \tab Errors: None
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {EnableFastDisplay
+\par }\pard\plain \fi720\nowidctlpar\widctlpar\adjustright \fs20\cgrid {
+Enables or disables live display of a specific frame.  When display is enabled, window will be continuously updated with the contents of the specified frame.  The frame must have been created using CreateSurf
+ace.  Any overlays which are attached to the frame will also be displayed.
+\par 
+\par }\pard\plain \s18\li720\nowidctlpar\widctlpar\adjustright \cgrid {\fs20 Declaration: short EnableFastDisplay (HWND destWindow, FRAME ddFrameHandle, long timingFgh, boolean enable);
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Parameters:
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {destWindow: a handle to the destination window
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab \tab ddFrameHandle: the frame to be displayed
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {timingFgh: a handle to the frame grabber that will be updating this frame.  
+\par }\pard \li2160\nowidctlpar\widctlpar\adjustright {This information is used to synchronize the live display to the frame grabber.  If this value is 0, the display will be updated as quickly
+ as possible without synchronizing to the frame grabber.  Not synchronizing to the frame grabber can cause lower system performance and degraded image quality.
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {enable: if TRUE, this enables the display; if FALSE; this disables the display
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab Returns:
+\par \tab \tab 0 for failure
+\par \tab \tab non-zero for success
+\par \tab Errors:
+\par \tab \tab ERR_INVALID_PARAMETER
+\par \tab \tab ERR_WINDOW_ATTACHED
+\par \tab \tab ERR_DISPLAY_INACTIVE
+\par \tab \tab ERR_NOT_DD_FRAME
+\par 
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {EnableOverlay
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Attaches an overlay created by LoadOverlay to a frame, or unattaches it.   When enabled, the overlay will be di
+splayed on top of the specified frame whenever the frame is displayed.  The overlay may be smaller in size than the frame it is attached to.
+\par \tab 
+\par \tab Declaration: short EnableOverlay (FRAME ddFrameHandle, long overlayHandle, short x, short y, boolean enable);
+\par \tab Parameters:
+\par \tab \tab ddFrameHandle: the target surface to apply the overlay on. 
+\par \tab \tab overlayHandle: the overlay to be enabled.
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {x,y: the position inside the target surface where the overlay is displayed.  Ignored if enable is FALSE.
+\par }\pard \fi720\li720\nowidctlpar\widctlpar\adjustright {enable: if TRUE, this enables the overlay.  If FALSE, this disables the 
+\par }\pard \fi720\li1440\nowidctlpar\widctlpar\adjustright {overlay.
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab Returns:
+\par \tab \tab 0 for failure
+\par \tab \tab non-zero for success
+\par \tab Errors
+\par \tab \tab ERR_INVALID_PARAMETER
+\par \tab \tab ERR_NOT_DD_FRAME 
+\par \tab \tab ERR_OVERLAY_ATTACHED
+\par \tab \tab ERR_FRAME_ATTACHED
+\par 
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {GetBitDepth
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Provides the display bitdepth that will be used by all DD library functions.  This is in the format used by the FRAME library.
+\par \tab 
+\par \tab declaration: short GetBitDepth (void);
+\par \tab Parameters: none
+\par }\pard \fi720\nowidctlpar\widctlpar\adjustright {Returns:\tab 
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {PBITS_Y8, PBITS_RGB15, PBITS_RGB16, PBITS_RGB24, or PBITS_RGB32, depending on the current Windows desktop\rquote s color depth.
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab \tab 
+\par \tab Errors:\tab none
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {GetDDSurface
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\fs24 \tab }{Returns a DirectDraw surface pointer to a frame\rquote 
+s image buffer.  This allows the user to perform their own DirectDraw operations on the frame.  The frame must have been created with CreateSurface.
+\par 
+\par \tab Declaration: LPDIRECTDRAWSURFACE GetDDSurface (FRAME* ddFrameHandle);
+\par \tab Parameters: 
+\par \tab \tab ddFrameHandle: a handle to the frame.
+\par \tab Returns:
+\par \tab \tab 0 for failure
+\par \tab \tab A pointer to the DirectDraw surface if successful
+\par \tab Errors:
+\par \tab \tab ERR_INVALID_PARAMETER
+\par \tab \tab ERR_NOT_DD_FRAME
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {GetError
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\fs24 \tab }{Returns an error code for the last PXCDD function called.
+\par 
+\par \tab declaration: short GetError (void);
+\par \tab Parameters: none
+\par \tab Returns: some combination of these error codes (combined by bitwise OR)
+\par 
+\par }\trowd \trgaph108\trbrdrt\brdrs\brdrw15\brdrcf1 \trbrdrl\brdrs\brdrw15\brdrcf1 \trbrdrb\brdrs\brdrw15\brdrcf1 \trbrdrr\brdrs\brdrw15\brdrcf1 \trbrdrh\brdrs\brdrw15\brdrcf1 \trbrdrv\brdrs\brdrw15\brdrcf1 \clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl
+\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx2880\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb 
+\cellx3600\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx8748\pard \nowidctlpar\widctlpar\intbl\adjustright {FUNCTION_SUCCESS\cell 0\cell 
+No error occurred\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trbrdrt\brdrs\brdrw15\brdrcf1 \trbrdrl\brdrs\brdrw15\brdrcf1 \trbrdrb\brdrs\brdrw15\brdrcf1 \trbrdrr\brdrs\brdrw15\brdrcf1 \trbrdrh\brdrs\brdrw15\brdrcf1 
+\trbrdrv\brdrs\brdrw15\brdrcf1 \clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx2880\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl
+\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx3600\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb 
+\cellx8748\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_NO_DIRECTDRAW\cell 1\cell A DirectDraw call failed\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_VIDEO_MEM\cell 2\cell 
+Out of Video RAM; system memory was used instead (the function may still complete successfully)\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_SYSTEM_MEM\cell 4\cell Out of system memory
+\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_INVALID_PARAMETER\cell 8\cell Function parameters are incorrect\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard 
+\nowidctlpar\widctlpar\intbl\adjustright {ERR_NOT_DD_FRAME\cell 16\cell frame handle wasn\rquote t created by CreateSurface\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_WRONG_BIT_DEPTH
+\cell 32\cell frame pixel type doesn\rquote t match desktop type.\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_ACTIVE_FRAME\cell 64\cell the frame is being used by some other function
+\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_WINDOW_ATTACHED\cell 128\cell The window already has a frame attached to it\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard 
+\nowidctlpar\widctlpar\intbl\adjustright {ERR_FRAME_ATTACHED\cell 256\cell The frame is already attached to something else\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_OVERLAY_ATTACHED
+\cell 512\cell The overlay is already attached to another frame\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trbrdrt\brdrs\brdrw15\brdrcf1 \trbrdrl\brdrs\brdrw15\brdrcf1 \trbrdrb\brdrs\brdrw15\brdrcf1 \trbrdrr
+\brdrs\brdrw15\brdrcf1 \trbrdrh\brdrs\brdrw15\brdrcf1 \trbrdrv\brdrs\brdrw15\brdrcf1 \clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx2880\clvertalt
+\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx3600\clvertalt\clbrdrt\brdrs\brdrw15\brdrcf1 \clbrdrl\brdrs\brdrw15\brdrcf1 \clbrdrb\brdrs\brdrw15\brdrcf1 \clbrdrr
+\brdrs\brdrw15\brdrcf1 \cltxlrtb \cellx8748\pard \nowidctlpar\widctlpar\intbl\adjustright {ERR_DISPLAY_INACTIVE\cell 1024\cell Display cannot be disabled because it was not enabled\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard\plain 
+\s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {GetOverlaySurface
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\fs24 \tab }{Returns a DirectDraw surface pointer to an overlay\rquote 
+s image buffer.  This allows the user to perform their own DirectDraw operations on the overlay.  The overlay must have been created with LoadOverlay.
+\par 
+\par \tab Declaration: LPDIRECTDRAWSURFACE GetOverlaySurface (long overlayhandle);
+\par \tab Parameters: 
+\par \tab \tab overlayhandle: a handle to the overlay
+\par \tab Returns:
+\par \tab \tab 0 for failure
+\par \tab \tab A pointer to the DirectDraw surface if successful
+\par \tab Errors: none
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {GetRenderCount
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Returns the number of frames which have been drawn by the EnableFastDisplay mechanism since the library was started.  Subtracting two render counts can be used to compute the frame rate.
+
+\par 
+\par \tab Declaration: int GetRenderCount(void);
+\par \tab Parameters: none
+\par \tab Returns: the number of frames drawn
+\par \tab Errors: none
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {LoadOverlay 
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab creates a overlay
+ using user-provided information.  This overlay is extracted from a frame that contains the desired overlay image.  This information is copied from the frame into internal buffers allocated by the library.  If the user wishes to use a saved .bmp file, the
+y can use ReadBMP to load the file, then pass that handle into this function.  Use UnloadOverlay to free the resources allocated by this function as soon as the overlay is no longer needed.
+\par 
+\par \tab Declaration: long LoadOverlay (FRAME* overlay, long transBit)
+\par \tab Parameters
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {overlay: a frame handle to a frame containing overlay information.
+\par transBit: the value that should be interpreted as transparent when loading the overlay.  All pixels of this value will be ignored while creating the overlay.
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par \tab Returns: 
+\par }\pard \fi720\li720\nowidctlpar\widctlpar\adjustright {0 for failure
+\par a handle to the overlay if successful 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab \tab 
+\par \tab Errors: 
+\par }\pard \fi720\li720\nowidctlpar\widctlpar\adjustright {ERR_INVALID_PARAMETER
+\par ERR_NO_DIRECTDRAW
+\par ERR_WRONG_BIT_DEPTH
+\par ERR_VIDEO_MEM
+\par ERR_SYSTEM_MEM
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {MoveOverlay
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Specifies the position of an overlay relative to the upper left corner of the frame it is attached to.
+\par 
+\par }\pard \fi720\nowidctlpar\widctlpar\adjustright {Declaration: short MoveOverlay(long overlay, short x, short y);
+\par Parameters:
+\par \tab overlay: a handle to the overlay to be positioned
+\par \tab x: the new horizontal position of the overlay
+\par \tab y: the new vertical position of the overlay
+\par Returns:
+\par \tab 0 on failure
+\par \tab non-zero for success
+\par Errors:
+\par \tab ERR_INVALID_PARAMETER
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {MoveSurface
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab Specifies the position of a frame relative to the upper left corner of the window it is displayed in.  The frame must have been created with CreateSurface.
+\par 
+\par }\pard \fi720\nowidctlpar\widctlpar\adjustright {Declaration: short MoveSurface(FRAME *ddframe, short x, short y);
+\par Parameters:
+\par \tab ddframe: a handle to the frame to be positioned
+\par \tab x: the new horizontal position of the frame
+\par \tab y: the new vertical position of the frame
+\par Returns:
+\par \tab 0 on failure
+\par \tab non-zero for success
+\par Errors:
+\par \tab ERR_INVALID_PARAMETER
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {OpenLibrary
+\par }\pard\plain \fi720\nowidctlpar\widctlpar\adjustright \fs20\cgrid {
+Initializes some data structures used by the library.  This function must be called before any other library functions are used.  Use CloseLibrary to deallocate resources claimed by this function before the program exits.
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {
+\par }\pard \li720\nowidctlpar\widctlpar\adjustright {Declaration: short int imagenation_OpenLibrary(\ldblquote pxcdd.dll\rdblquote , PXCDD *pxcdd, sizeof(PXCDD));
+\par Parameters: none
+\par Returns: 
+\par }\pard \fi720\li720\nowidctlpar\widctlpar\adjustright {0 for failure
+\par }\pard \li720\nowidctlpar\widctlpar\adjustright {\tab non-zero for success
+\par Errors:
+\par }\pard \li1440\nowidctlpar\widctlpar\adjustright {Fails if the DLL can\rquote t be loaded, or if DirectDraw is not available.  If this function fails GetError cannot be called, so no error codes are returned.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {UnloadOverlay
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\fs24 \tab }{Removes an overlay created by LoadOverlay.  The overlay handle will be invalid as soon as this function completes.
+\par \tab 
+\par \tab Declaration: short UnloadOverlay (long overlayHandle);
+\par \tab Parameters: 
+\par \tab \tab overlayHandle: a handle to an overlay currently in memory.
+\par \tab Returns:
+\par \tab \tab 0 for failure
+\par \tab \tab non-zero if successful.
+\par \tab Errors:
+\par \tab \tab ERR_INVALID_PARAMETER
+\par \tab \tab ERR_ACTIVE_FRAME
+\par }\pard\plain \s2\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\i\f1\cgrid {Video Display Performance
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab How fast the PXCDD DLL can update the display depends primarily on three factors: 
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls8\adjustright {
+The type of graphics adapter installed
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls8\adjustright {
+The amount of video memory on the adapter, and 
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls8\adjustright {
+The graphics drivers which are installed.  
+\par }\pard \fi720\nowidctlpar\widctlpar\adjustright {The speed of the system CPU can sometimes be important, but on a system with enough video memory and a good graphics adapter increasing CPU speed will usually not improve performance significantly.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {The Graphics Adapter
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab The DLL is designed to work with PCI graphics cards which use a 
+flat memory addressing mode.  Although almost all currently available graphics adapters support flat addressing, sometimes old graphics drivers or generic SVGA drivers will not enable this mode.  Using one of these drivers will prevent video from being di
+splayed properly.
+\par \tab Two graphics accelerator features which are necessary in order to get good performance are hardware blitting and hardware clipping.  Again, most modern graphics cards have at least some support for these features.  Hardware support for tr
+ansparent overlays will not improve performance; the DLL does not take advantage of this feature because DirectDraw support for hardware overlays is not always well implemented.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Video Memory
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab The feature which has the largest effect on video performance is
+ the amount of RAM on the graphics adapter.  The DLL will try to allocate all of the image buffers it needs from video RAM.  If  there is not enough video RAM then some buffers will be allocated in system memory, which substantially decreases performance.
+  System memory is worse than video memory for three reasons.  
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {
+Transfers from system memory to the graphics card are usually slower than data movement inside the graphics card.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {
+The graphics cards blitter usually cannot copy data from system memory, so the system CPU must be used to copy data which steals processor time from other applications.
+\par {\pntext\pard\plain\f3\fs20\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\nowidctlpar\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {
+Moving data from system memory to the graphics card uses PCI bandwidth, which reduces the amount of video data the frame grabber can reliably capture.  In some cases this can result in image capture errors.
+\par }\pard \nowidctlpar\widctlpar\adjustright {
+\par }\pard \fi720\nowidctlpar\widctlpar\adjustright {The amount of video RAM needed to optimally run a given program is the total of the size of the Windows desktop, the size of all video frames, the size of all active overlays, and some extra space for a sc
+ratch buffer used internally by the DLL.  The scratch buffer is always 768 by 576 pixels. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\tab For example, a program which is running on a 1024 by 768 pixel 24 bit per pixel desktop and uses one 640 by 480 video frame with a 100 by 100 pixel overlay would need the following amount of memory:
+\par 
+\par }\trowd \trgaph108\trleft-108 \clvertalt\cltxlrtb \cellx1440\clvertalt\cltxlrtb \cellx3883\clvertalt\cltxlrtb \cellx6835\pard \nowidctlpar\widctlpar\intbl\adjustright {Desktop:\cell 1024*768 pixels * 3 bytes\cell = 2 359 296 bytes\cell }\pard 
+\nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108 \clvertalt\cltxlrtb \cellx1440\clvertalt\cltxlrtb \cellx3883\clvertalt\cltxlrtb \cellx6835\pard \nowidctlpar\widctlpar\intbl\adjustright {Scratch Buffer:\cell 
+768*576 pixels   * 3 bytes\cell = 1 327 104 bytes\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\intbl\adjustright {Video Frame:\cell 560*480 pixels   * 3 bytes\cell =    921 600 bytes\cell }\pard 
+\nowidctlpar\widctlpar\intbl\adjustright {\row }\trowd \trgaph108\trleft-108 \clvertalt\cltxlrtb \cellx1440\clvertalt\cltxlrtb \cellx3883\clvertalt\cltxlrtb \cellx6835\pard \nowidctlpar\widctlpar\intbl\adjustright {Overlay:\cell 100*100 pixels   * 3 bytes
+\cell =      30 000 bytes\cell }\pard \nowidctlpar\widctlpar\intbl\adjustright {\row }\pard \nowidctlpar\widctlpar\adjustright {Total:  4 638 000 bytes, or about 4.4 megabytes
+\par 
+\par \tab The same program running on an 800 by 600 pixel 24 bit desktop uses about 3.6 megabytes of video RAM.
+\par 
+\par \tab Other programs and the operating system can also use some video memory for things like icons, mouse cursors, and other DirectDraw surfaces.  These things can make some video memory unavailable to the video display DLL.
+\par }\pard\plain \s3\sb240\sa60\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \f1\cgrid {Graphics Drivers
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {\tab The performance of a given video card is often limited by the graphics drivers which are being used 
+to run it.  This is particularly true under Windows NT, because highly optimized graphics drivers for Windows 95 are generally easier to find.  In some cases, upgrading to an improved version of the drivers for a graphics card can increase performance by 
+a factor of two or more.  Manufacturers of graphics cards and graphics accelerator chips will often make drivers available on the internet which can have better performance than those that come with Windows.
+\par \tab Another software component which is related to t
+he graphics driver is DirectDraw.  The PXCDD DLL uses DirectDraw to control video display, so it is important to have DirectDraw or DirectX properly installed.  The DLL will work with DirectDraw version 2 or later, but newer versions are likely to give be
+tter performance. 
+\par    
+\par }}

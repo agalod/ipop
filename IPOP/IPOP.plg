@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IMAGEPROC - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSP26.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\GCV" /I "..\ltilib\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/IMAGEPROC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"e:\Daten\My Projects\Visual-C++\IMAGEPROC\IIPM.cpp"
+"e:\Daten\My Projects\Visual-C++\IMAGEPROC\IPOP.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSP26.tmp" 
+Erstellen der Befehlzeile "link.exe -lib /nologo /out:"Debug\IMAGEPROC.lib"  ".\Debug\IIPM.obj" ".\Debug\IPOP.obj" ".\Debug\StdAfx.obj" "\Daten\My Projects\Visual-C++\GCV\Debug\GCV.lib" "
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+IIPM.cpp
+IPOP.cpp
+Generieren von Code...
+Bibliothek wird erstellt...
+Ersetzen von .\Debug\StdAfx.obj
+<h3>
+--------------------Konfiguration: IPOP - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSP2B.tmp" mit Inhalten
+[
+opengl32.lib glu32.lib glaux.lib ..\ltilib\ltilib.lib ..\IMAGESERVER\Debug\ImageServer.lib highgui.lib cv.lib strmbasd.lib winmm.lib vfw32.lib d3dx9.lib ..\IMG\PXC\ilib_32.lib ipl.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/IPOP.pdb" /debug /machine:I386 /nodefaultlib:"LIBCD.lib" /out:"Debug/IPOP.exe" /pdbtype:sept /libpath:"..\ltilib" 
+".\Debug\ChildFrm.obj"
+".\Debug\Disp_3D_Doc.obj"
+".\Debug\Disp_3D_View.obj"
+".\Debug\Disp_Live_Doc.obj"
+".\Debug\Disp_Live_View.obj"
+".\Debug\Disp_Pic_Doc.obj"
+".\Debug\Disp_Pic_View.obj"
+".\Debug\Dlg_3D.obj"
+".\Debug\Dlg_Camera.obj"
+".\Debug\Dlg_Etalon.obj"
+".\Debug\Dlg_IPParams.obj"
+".\Debug\Dlg_Pose.obj"
+".\Debug\IPOPApp.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\IPOP.res"
+"\Daten\My Projects\Visual-C++\GCV\Debug\GCV.lib"
+"\Daten\My Projects\Visual-C++\IMAGEPROC\Debug\IMAGEPROC.lib"
+"\Daten\My Projects\Visual-C++\IMAGESERVER\Debug\IMAGESERVER.lib"
+"\Daten\My Projects\Visual-C++\IMG\Debug\IMG.lib"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSP2B.tmp"
+<h3>Ausgabefenster</h3>
+Linker-Vorgang läuft...
+msvcrtd.lib(cinitexe.obj) : warning LNK4098: Standardbibliothek "libc.lib" steht in Konflikt mit anderen Bibliotheken; /NODEFAULT:Bibliothek verwenden
+
+
+
+<h3>Ergebnisse</h3>
+IPOP.exe - 0 Fehler, 1 Warnung(en)
+</pre>
+</body>
+</html>

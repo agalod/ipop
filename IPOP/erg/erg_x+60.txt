@@ -1,0 +1,44 @@
+Werkstueck:
+rot_z: 		 -0,87481
+trans_x: 	 57,16043
+trans_y: 	 -99,87737
+Werkstueck:
+rot_z: 		 -0,87485
+trans_x: 	 57,45343
+trans_y: 	 -80,68707
+Werkstueck:
+rot_z: 		 -0,87483
+trans_x: 	 57,74541
+trans_y: 	 -61,56578
+Werkstueck:
+rot_z: 		 -0,87480
+trans_x: 	 58,06529
+trans_y: 	 -40,62242
+Werkstueck:
+rot_z: 		 -1,87044
+trans_x: 	 57,97205
+trans_y: 	 -22,19903
+Werkstueck:
+rot_z: 		 -0,90082
+trans_x: 	 60,14539
+trans_y: 	 -0,80796
+Werkstueck:
+rot_z: 		 -0,90080
+trans_x: 	 60,45545
+trans_y: 	 18,90548
+Werkstueck:
+rot_z: 		 -0,90075
+trans_x: 	 60,77342
+trans_y: 	 39,12923
+Werkstueck:
+rot_z: 		 -0,90080
+trans_x: 	 61,07985
+trans_y: 	 58,62062
+Werkstueck:
+rot_z: 		 -0,90078
+trans_x: 	 61,39251
+trans_y: 	 78,50641
+Werkstueck:
+rot_z: 		 -0,90076
+trans_x: 	 61,69987
+trans_y: 	 98,05417

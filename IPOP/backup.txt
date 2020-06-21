@@ -1,0 +1,54 @@
+	HRESULT hr = ::CoInitialize(NULL);
+ 	CComPtr<IGraphBuilder>			m_pGraph;
+	CComPtr<ICaptureGraphBuilder>	m_pCapture;
+	CComPtr<IMediaControl>			m_pMC;
+	CComPtr<IVideoWindow>			m_pVideoWindow;
+	CComPtr<IBaseFilter>			m_pSrc;
+
+
+	if(SUCCEEDED(hr))
+	{
+
+		//; basic graph
+		hr = m_pGraph.CoCreateInstance(CLSID_FilterGraph, 
+			NULL, CLSCTX_INPROC);
+
+		if(SUCCEEDED(hr))
+		{
+			//; capture graph
+			hr = m_pCapture.CoCreateInstance(CLSID_CaptureGraphBuilder , 
+				NULL, CLSCTX_INPROC);
+			if(SUCCEEDED(hr))
+			{
+				hr = m_pGraph->QueryInterface(IID_IMediaControl, 
+					(void **)&m_pMC);
+				if(SUCCEEDED(hr))
+				{
+					//; get video-interface
+					hr = m_pGraph->QueryInterface(IID_IVideoWindow, 
+						(LPVOID *)&m_pVideoWindow);
+					if(SUCCEEDED(hr))
+					{
+					}
+				}
+			}
+		}
+	}
+
+	hr = FindCaptureDevice(m_pSrc);
+
+	if(SUCCEEDED(hr)){
+		hr = m_pCapture->SetFiltergraph(m_pGraph);
+		if(SUCCEEDED(hr)){
+			hr = m_pGraph->AddFilter(m_pSrc, L"Video Capture Source");
+			if(SUCCEEDED(hr)){
+				hr = m_pCapture->RenderStream(&PIN_CATEGORY_CAPTURE, 
+					 m_pSrc, NULL, NULL);
+				if(SUCCEEDED(hr)){
+					m_pMC->Run();
+					Sleep(10000);
+					m_pMC->Stop();
+				}}}}
+	::CoUninitialize();
+
+	return TRUE;

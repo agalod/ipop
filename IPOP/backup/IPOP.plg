@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IPOP - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/IPOP.res" /d "_DEBUG" /d "_AFXDLL" "e:\Daten\My Projects\Visual-C++\IPOP\IPOP.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSPB5.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\ltilib" /I "..\ltilib\include" /I "..\D3DUTILS" /I "..\DIB" /I "..\IMAGESERVER" /I "..\OpenCV" /I "..\HIGHGui" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/IPOP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"e:\Daten\My Projects\Visual-C++\IPOP\3DDialog.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\3DDoc.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\3DView.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\ChildFrm.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\Dlg_Etalon.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\Dlg_IPParams.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\Dlg_Pose.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\Dlg_Universal.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\IIPM.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\IPOP.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\IPOPApp.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\IPOPDoc.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\IPOPView.cpp"
+"e:\Daten\My Projects\Visual-C++\IPOP\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSPB5.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSPB6.tmp" mit Inhalten
+[
+opengl32.lib glu32.lib glaux.lib ..\ltilib\ltilib.lib ..\IMAGESERVER\Debug\ImageServer.lib ..\OpenCV\highgui.lib ..\OpenCV\cv.lib ..\MFC3DVIEWER\Debug\MFC3DVIEWER.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/IPOP.pdb" /debug /machine:I386 /nodefaultlib:"LIBCD.lib" /out:"Debug/IPOP.exe" /pdbtype:sept /libpath:"..\ltilib" 
+".\Debug\3DDialog.obj"
+".\Debug\3DDoc.obj"
+".\Debug\3DView.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\Dlg_Etalon.obj"
+".\Debug\Dlg_IPParams.obj"
+".\Debug\Dlg_Pose.obj"
+".\Debug\Dlg_Universal.obj"
+".\Debug\IIPM.obj"
+".\Debug\Ini_Camera.obj"
+".\Debug\IPOP.obj"
+".\Debug\IPOPApp.obj"
+".\Debug\IPOPCameraDlg.obj"
+".\Debug\IPOPDoc.obj"
+".\Debug\IPOPView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\IPOP.res"
+"\Daten\My Projects\Visual-C++\D3DUTILS\Debug\D3DUTILS.lib"
+"\Daten\My Projects\Visual-C++\IMAGESERVER\Debug\IMAGESERVER.lib"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSPB6.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+Dlg_IPParams.cpp
+IIPM.cpp
+IPOP.cpp
+IPOPDoc.cpp
+e:\Daten\My Projects\Visual-C++\IPOP\IPOPDoc.cpp(163) : warning C4101: 'ptsnorm1' : Unreferenzierte lokale Variable
+e:\Daten\My Projects\Visual-C++\IPOP\IPOPDoc.cpp(163) : warning C4101: 'ptsnorm' : Unreferenzierte lokale Variable
+e:\Daten\My Projects\Visual-C++\IPOP\IPOPDoc.cpp(304) : warning C4800: 'int' : Variable wird auf booleschen Wert ('True' oder 'False') gesetzt (Auswirkungen auf Leistungsverhalten moeglich)
+e:\Daten\My Projects\Visual-C++\IPOP\IPOPDoc.cpp(360) : warning C4800: 'int' : Variable wird auf booleschen Wert ('True' oder 'False') gesetzt (Auswirkungen auf Leistungsverhalten moeglich)
+IPOPView.cpp
+MainFrm.cpp
+Generieren von Code...
+e:\Daten\My Projects\Visual-C++\IPOP\IIPM.cpp(591) : warning C4715: 'CIIPM::Calc_RegIIPM_Init' : Nicht alle Steuerelementpfade geben einen Wert zurück
+Ueberspringen... (keine relevanten Aenderungen gefunden)
+3DDialog.cpp
+3DDoc.cpp
+3DView.cpp
+ChildFrm.cpp
+Dlg_Etalon.cpp
+Dlg_Pose.cpp
+Dlg_Universal.cpp
+IPOPApp.cpp
+Linker-Vorgang läuft...
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSPB7.tmp" mit Inhalten
+[
+/nologo /o"Debug/IPOP.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\3DDialog.sbr"
+".\Debug\3DDoc.sbr"
+".\Debug\3DView.sbr"
+".\Debug\ChildFrm.sbr"
+".\Debug\Dlg_Etalon.sbr"
+".\Debug\Dlg_IPParams.sbr"
+".\Debug\Dlg_Pose.sbr"
+".\Debug\Dlg_Universal.sbr"
+".\Debug\IIPM.sbr"
+".\Debug\Ini_Camera.sbr"
+".\Debug\IPOP.sbr"
+".\Debug\IPOPApp.sbr"
+".\Debug\IPOPCameraDlg.sbr"
+".\Debug\IPOPDoc.sbr"
+".\Debug\IPOPView.sbr"
+".\Debug\MainFrm.sbr"]
+Erstellen der Befehlzeile "bscmake.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSPB7.tmp"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+IPOP.exe - 0 Fehler, 5 Warnung(en)
+</pre>
+</body>
+</html>

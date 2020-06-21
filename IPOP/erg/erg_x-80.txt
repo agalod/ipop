@@ -1,0 +1,44 @@
+Werkstueck:
+rot_z: 		 -1,21137
+trans_x: 	 -83,28326
+trans_y: 	 -97,09458
+Werkstueck:
+rot_z: 		 -1,21137
+trans_x: 	 -82,86702
+trans_y: 	 -77,41360
+Werkstueck:
+rot_z: 		 -1,21140
+trans_x: 	 -82,44415
+trans_y: 	 -57,41085
+Werkstueck:
+rot_z: 		 -1,21140
+trans_x: 	 -82,03105
+trans_y: 	 -37,87666
+Werkstueck:
+rot_z: 		 -1,93610
+trans_x: 	 -81,56999
+trans_y: 	 -17,59685
+Werkstueck:
+rot_z: 		 -1,93613
+trans_x: 	 -80,91463
+trans_y: 	 1,79277
+Werkstueck:
+rot_z: 		 -1,93607
+trans_x: 	 -80,23570
+trans_y: 	 21,87356
+Werkstueck:
+rot_z: 		 -2,60476
+trans_x: 	 -81,14874
+trans_y: 	 41,54871
+Werkstueck:
+rot_z: 		 -1,93614
+trans_x: 	 -78,88889
+trans_y: 	 61,71667
+Werkstueck:
+rot_z: 		 -1,23462
+trans_x: 	 -78,31315
+trans_y: 	 80,95649
+Werkstueck:
+rot_z: 		 -2,58061
+trans_x: 	 -79,69811
+trans_y: 	 99,74966

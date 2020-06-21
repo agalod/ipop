@@ -1,0 +1,12 @@
+Werkstueck:
+rot_z: 		 -1,40912
+trans_x: 	 -0,81034
+trans_y: 	 -0,29460
+Werkstueck:
+rot_z: 		 -1,40908
+trans_x: 	 -0,81570
+trans_y: 	 -0,51257
+Werkstueck:
+rot_z: 		 -1,40908
+trans_x: 	 -0,81570
+trans_y: 	 -0,51257

@@ -1,0 +1,13 @@
+Pixelgröße (aus dem Datenblatt des Kameraherstellers):
+8.6 8.2
+
+Bildgröße:
+[456;456]
+
+Kameramatrix:
+6.000000 6.000000 0.000000
+0.000000 0.000000 0.000000
+0.000000 66.000000 0.000000
+
+Verzerrung:
+9.000000 0.000000 0.000000 0.000000

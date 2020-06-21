@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IPOP - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/IPOP.res" /d "_DEBUG" /d "_AFXDLL" "e:\Daten\My Projects\Visual-C++\IPOP\IPOP.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSP43.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\ltilib" /I "..\ltilib\include" /I "..\GCV" /I "..\DIB" /I "..\IMAGESERVER" /I "..\IMAGEPROC" /I "..\OpenCV" /I "..\HIGHGui" /I "..\dxsdk" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/IPOP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"e:\Daten\My Projects\Visual-C++\IPOP\IPOPApp.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSP43.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\alex\LOKALE~1\Temp\RSP44.tmp" mit Inhalten
+[
+opengl32.lib glu32.lib glaux.lib ..\ltilib\ltilib.lib ..\IMAGESERVER\Debug\ImageServer.lib ..\OpenCV\highgui.lib ..\OpenCV\cv.lib strmbasd.lib winmm.lib vfw32.lib d3dx9.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/IPOP.pdb" /debug /machine:I386 /nodefaultlib:"LIBCD.lib" /out:"Debug/IPOP.exe" /pdbtype:sept /libpath:"..\ltilib" 
+".\Debug\ChildFrm.obj"
+".\Debug\Disp_3D_Doc.obj"
+".\Debug\Disp_3D_View.obj"
+".\Debug\Disp_Live_Doc.obj"
+".\Debug\Disp_Live_View.obj"
+".\Debug\Disp_Pic_Doc.obj"
+".\Debug\Disp_Pic_View.obj"
+".\Debug\Dlg_3D.obj"
+".\Debug\Dlg_Camera.obj"
+".\Debug\Dlg_Etalon.obj"
+".\Debug\Dlg_IPParams.obj"
+".\Debug\Dlg_Pose.obj"
+".\Debug\IPOPApp.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\IPOP.res"
+"\Daten\My Projects\Visual-C++\GCV\Debug\GCV.lib"
+"\Daten\My Projects\Visual-C++\IMAGEPROC\Debug\IMAGEPROC.lib"
+"\Daten\My Projects\Visual-C++\IMAGESERVER\Debug\IMAGESERVER.lib"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\alex\LOKALE~1\Temp\RSP44.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+IPOPApp.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+IPOP.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

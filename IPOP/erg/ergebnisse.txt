@@ -1,0 +1,20 @@
+Werkstueck:
+rot_z: 		 0,74818
+trans_x: 	 -38,45259
+trans_y: 	 -0,22076
+Werkstueck:
+rot_z: 		 0,28557
+trans_x: 	 -18,46481
+trans_y: 	 -0,08808
+Werkstueck:
+rot_z: 		 0,00002
+trans_x: 	 0,00001
+trans_y: 	 19,32269
+Werkstueck:
+rot_z: 		 -0,00003
+trans_x: 	 -0,00013
+trans_y: 	 39,10887
+Werkstueck:
+rot_z: 		 -0,00001
+trans_x: 	 -0,00002
+trans_y: 	 59,52681

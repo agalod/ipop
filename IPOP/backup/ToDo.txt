@@ -1,0 +1,2 @@
+- Calibrate Plane fertigstellen und testen.
+- Serialization von Camerastruct

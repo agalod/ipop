@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IMS - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der Befehlzeile "link.exe -lib /nologo /out:"Debug\IMS.lib"  ".\Debug\DIB.obj" ".\Debug\ImageServer.obj" ".\Debug\StdAfx.obj" "
+<h3>Ausgabefenster</h3>
+Bibliothek wird erstellt...
+
+
+
+<h3>Ergebnisse</h3>
+IMS.lib - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

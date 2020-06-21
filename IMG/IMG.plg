@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: IMG - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "d:\users\glo-ar\temp\RSP18A.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/IMG.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projekte\glo-ar\IMG\IMG.cpp"
+"D:\Projekte\glo-ar\IMG\IMG_PXD.cpp"
+"D:\Projekte\glo-ar\IMG\IMG_VFW.cpp"
+"D:\Projekte\glo-ar\IMG\IMG_WIA.cpp"
+]
+Creating command line "cl.exe @"d:\users\glo-ar\temp\RSP18A.tmp"" 
+Erstellen der temporären Datei  "d:\users\glo-ar\temp\RSP18B.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/IMG.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projekte\glo-ar\IMG\StdAfx.cpp"
+]
+Creating command line "cl.exe @"d:\users\glo-ar\temp\RSP18B.tmp"" 
+Erstellen der Befehlzeile "link.exe -lib /nologo /out:"Debug\IMG.lib"  ".\Debug\IMG.obj" ".\Debug\IMG_PXD.obj" ".\Debug\IMG_VFW.obj" ".\Debug\IMG_WIA.obj" ".\Debug\StdAfx.obj" "
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+IMG.cpp
+IMG_PXD.cpp
+IMG_VFW.cpp
+D:\Projekte\glo-ar\IMG\IMG_VFW.cpp(159) : warning C4101: 'CaptureParms' : Unreferenzierte lokale Variable
+D:\Projekte\glo-ar\IMG\IMG_VFW.cpp(157) : warning C4101: 'CapStatus' : Unreferenzierte lokale Variable
+D:\Projekte\glo-ar\IMG\IMG_VFW.cpp(162) : warning C4101: 'dwSize' : Unreferenzierte lokale Variable
+D:\Projekte\glo-ar\IMG\IMG_VFW.cpp(161) : warning C4101: 'lpbi' : Unreferenzierte lokale Variable
+IMG_WIA.cpp
+Generieren von Code...
+D:\Projekte\glo-ar\IMG\IMG_PXD.cpp(135) : warning C4715: 'IMG_PXC::SnapShot' : Nicht alle Steuerelementpfade geben einen Wert zurück
+Bibliothek wird erstellt...
+
+
+
+<h3>Ergebnisse</h3>
+IMG.lib - 0 Fehler, 5 Warnung(en)
+</pre>
+</body>
+</html>
